@@ -1,2 +1,2 @@
 # azurefunctions-cognitiveservices
-Sample functions using Microsoft Cognitive Services Binding Extensions
+Sample Azure Functions using Microsoft Cognitive Services Binding Extensions

@@ -1,0 +1,25 @@
+{
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "name": "info",
+      "type": "httpTrigger",
+      "direction": "in",
+      "methods": [
+        "POST"
+      ]
+    },
+    {
+      "imageUrl": "{ImageUrl}",
+      "name": "results",
+      "type": "imageToText",
+      "direction": "in"
+    },
+    {
+      "name": "$return",
+      "type": "http",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}

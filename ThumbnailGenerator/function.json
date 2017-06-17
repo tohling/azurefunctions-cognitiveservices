@@ -1,0 +1,30 @@
+{
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "name": "info",
+      "type": "httpTrigger",
+      "direction": "in",
+      "methods": [
+        "POST"
+      ]
+    },
+    {
+      "imageUrl": "{ImageUrl}",
+      "width": "{Width}",
+      "height": "{Height}",
+      "smartCropping": "{SmartCropping}",
+      "blobContainerName": "{BlobContainerName}",
+      "blobName": "{BlobName}",
+      "name": "results",
+      "type": "imageThumbnail",
+      "direction": "in"
+    },
+    {
+      "name": "$return",
+      "type": "http",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}

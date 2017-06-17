@@ -1,0 +1,32 @@
+{
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "name": "info",
+      "type": "httpTrigger",
+      "direction": "in",
+      "methods": [
+        "POST"
+      ]
+    },
+    {
+      "text": "{Text}",
+      "voiceType": "{VoiceType}",
+      "locale": "{Locale}",
+      "blobContainerName": "{BlobContainerName}",
+      "blobName": "{BlobName}",
+      "callerNumber": "{CallerNumber}",
+      "calleeNumber": "{CalleeNumber}",
+      "useTemplate": "{UseTemplate}",
+      "name": "results",
+      "type": "textToCall",
+      "direction": "in"
+    },
+    {
+      "name": "$return",
+      "type": "http",
+      "direction": "out"
+    }
+  ],
+  "disabled": true
+}

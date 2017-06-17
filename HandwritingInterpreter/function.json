@@ -1,0 +1,23 @@
+{
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "name": "info",
+      "type": "httpTrigger",
+      "direction": "in",
+      "methods": ["POST"]
+    },
+    {
+      "imageUrl": "{ImageUrl}",
+      "name": "results",
+      "type": "handwritingToText",
+      "direction": "in"
+    },
+    {
+      "name": "$return",
+      "type": "http",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}
