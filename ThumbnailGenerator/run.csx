@@ -36,9 +36,9 @@ Request body:
     "Height" : "500",
     "SmartCropping" : "true",
     "BlobContainerName" : "thumbnail",
-    "BlobName" : "satya_3by5.wav"
+    "BlobName" : "satya_3by5.jpg"
 }
 
 Sample log entry:
-Results:https://<mystorageaccount>.blob.core.windows.net/thumbnail/satya_3by5.wav
+Results:https://<mystorageaccount>.blob.core.windows.net/thumbnail/satya_3by5.jpg
 */
