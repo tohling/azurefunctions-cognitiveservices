@@ -35,4 +35,7 @@ Request body:
     "BlobContainerName" : "speech",
     "BlobName" : "greeting-male.wav"
 }
+
+Sample log entry:
+Results:http://<mystorageaccount>.blob.core.windows.net/speech/greeting-male.wav
 */

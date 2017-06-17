@@ -38,4 +38,7 @@ Request body:
     "BlobContainerName" : "thumbnail",
     "BlobName" : "satya_3by5.wav"
 }
+
+Sample log entry:
+Results:https://<mystorageaccount>.blob.core.windows.net/thumbnail/satya_3by5.wav
 */

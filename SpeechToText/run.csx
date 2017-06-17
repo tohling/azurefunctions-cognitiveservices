@@ -12,6 +12,8 @@ public class AudioInfo
 
 public static HttpResponseMessage Run(HttpRequestMessage req, AudioInfo info, string results, TraceWriter log)
 {
+    log.Info("Result: " + results);
+
     return req.CreateResponse(HttpStatusCode.OK, results);
 }
 
@@ -25,4 +27,8 @@ Request body:
 {
  "AudioUrl" : "http://<mystorageaccount>.blob.core.windows.net/test/whatstheweatherlike.wav"
 }
+
+Sample log entry:
+Result: ********* Final n-BEST Results *********
+[0] Text="What's the weather like?"
 */

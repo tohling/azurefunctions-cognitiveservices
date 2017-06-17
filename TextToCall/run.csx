@@ -68,4 +68,6 @@ Request body:
     "UseTemplate" : "false"
 }
 
+Sample log entry:
+Results:http://<mystorageaccount>.blob.core.windows.net/speech/happygreeting.wav
 */
